@@ -1,0 +1,24 @@
+{
+  "name": "quiz-auth-api",
+  "version": "1.0.0",
+  "description": "Quiz Authentication API with Hapi.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "@hapi/joi": "^17.1.1",
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.3",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["hapi", "jwt", "authentication", "postgresql"],
+  "author": "Yhustya",
+  "license": "MIT"
+}
